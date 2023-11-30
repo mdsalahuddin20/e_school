@@ -1,0 +1,269 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*	header start*/
+	header{
+	padding: 5px 0;
+	}
+	.menu ul li a {
+	    color: #000;
+	    padding: 0 10px 8px !important;
+	}
+	.btn_sign{
+		margin-left: 8px;
+	}
+	.logo {
+    	width: 180px;
+	}
+/*	banner start*/
+	.banner{
+		padding-bottom: 50px;
+	}
+	.b_text{
+		text-align: center;
+	}
+	.bh1{
+		padding: 0 0;
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.bp2{
+		padding: 0 0;
+		line-height: 24px;
+	}
+	.b_img {
+    	margin-bottom: 30px;
+    	padding: 0 0;
+	}
+/*	feature start*/
+	.c_padding{
+		padding-bottom: 60px;
+	}
+	.s_feature{
+		margin: 30px 0 0;
+	}
+/*	course start*/
+	.c_h1{
+		font-size: 30px;
+	}
+	.s_course {
+   		margin: 40px 0px 0;
+   		padding: 20px 15px 25px;
+	}
+	.cou_li:not(:last-child) {
+    	margin-right: 0px;
+	}
+	.cou_left ul li img, 
+	.cou_right ul li img {
+		width: 20px;
+	}
+	.cou_left ul li span, 
+	.cou_right ul li span{
+		font-size: 14px;
+	}
+	/*testimonial start*/
+	.t_img {
+	    padding: 10px 30px 10px;
+	}
+	.t_text {
+		font-size: 15px;
+		text-align: center;
+	    padding: 0 10px;
+	}
+	.t_text p{
+		line-height: 25px;
+	}
+	.c_b {
+    	bottom: -60px;
+	}
+	/*	footer top*/
+	.footer_t {
+   		padding: 40px 0 70px;
+	}
+	.ft_add p {
+		margin-bottom: 10px;
+	    padding: 0 0px;
+	    text-align: center;
+	}
+	.ft_l h2 {
+    	margin-top: 10px;
+	}
+	.ft_l {
+    	text-align: center;
+	}
+	.ft_add {
+    	margin:0 0 0px;
+	}
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*	header start*/
+	header{
+	padding: 10px 0;
+	}
+	.menu ul li a {
+	    color: #000;
+	    padding: 0 10px 4px !important;
+	}
+	.btn_sign{
+		margin-left: 8px;
+	}
+/*	banner start*/
+	.banner{
+		padding-bottom: 50px;
+	}
+	.b_text{
+		text-align: center;
+	}
+	.bh1{
+		padding: 0 50px;
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.bp2{
+		padding: 0 0;
+		line-height: 26px;
+	}
+	.b_img {
+    	margin-bottom: 30px;
+    	padding: 0 48px;
+	}
+	/*	feature start*/
+	.c_padding{
+		padding-bottom: 60px;
+	}
+	.s_feature{
+		margin: 30px 0 0;
+	}
+/*	course start*/
+	.c_h1{
+		font-size: 30px;
+	}
+	.s_course {
+   		margin: 40px 70px 0;
+	}
+/*testimonial start*/
+	.t_img {
+	    padding: 10px 140px 20px;
+	}
+	.t_text {
+		text-align: center;
+	    padding: 0 20px;
+	}
+	.c_b {
+    	bottom: -60px;
+	}
+	/*	footer top*/
+	.footer_t {
+   		padding: 40px 0 70px;
+	}
+	.ft_add p {
+		margin-bottom: 10px;
+	    padding: 0 20px;
+	    text-align: center;
+	}
+	.ft_l {
+    	text-align: center;
+	}
+	.ft_add {
+    	margin:0 0 30px;
+	}
+
+
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header start*/
+	.menu ul li a {
+	    color: #000;
+	    padding: 0 10px 8px !important;
+	}
+	.btn_sign{
+		margin-left: 8px;
+	}
+/*	banner start*/
+	.b_text{
+		padding: 0 122px;
+		text-align: center;
+	}
+	.bh1{
+		padding: 0px 20px;
+    	font-size: 40px;
+		line-height: 50px;
+	}
+	.bp2{
+		line-height: 26px;
+	}
+	.b_img {
+    	margin-bottom: 30px;
+    	padding: 0 60px;
+	}
+	/*	feature start*/
+	.c_padding{
+		padding-bottom: 80px;
+	}
+/*	course start*/
+	.s_course {
+   		margin: 40px 150px 0;
+	}
+/*	testimonial start*/
+	.t_item {
+	    margin-top: 40px;
+	}
+/*	footer top*/
+	.footer_t {
+   		padding: 40px 0 70px;
+	}
+	.ft_add p {
+	    padding: 0 120px;
+	    text-align: center;
+	}
+	.ft_l {
+    	text-align: center;
+	}
+	.ft_add {
+    	margin:0 0 30px;
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*	course start*/
+	.s_course {   
+    padding: 20px 15px 25px;
+    }
+	.cou_li:not(:last-child) {
+    	margin-right: 0px;
+	}
+	.cou_left ul li img, 
+	.cou_right ul li img {
+		width: 20px;
+	}
+	.cou_left ul li span, 
+	.cou_right ul li span{
+		font-size: 15px;
+	}
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	.bh1{
+		padding: 0 110px 0 0;
+	}
+/*	feature start*/
+	.s_feature{
+		padding: 65px 0 50px;
+	}
+}
